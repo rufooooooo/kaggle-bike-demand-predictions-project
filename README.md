@@ -23,4 +23,3 @@ A machine learning project that predicts bike rental demand using linear regress
 - **scikit-learn** - Machine learning modeling
 - **matplotlib** - Data visualization
 
-## 📁 Project Structure
