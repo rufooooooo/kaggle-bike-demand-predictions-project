@@ -23,25 +23,25 @@ plt.tight_layout()
 # Visualize the continuous features Vs demand
 plt.subplot(2,2,1)
 plt.title('Temperature Vs Demand')
-plt.scatter(bikes_prep['temp'], bikes_prep['demand'], s=2, c='g')
+plt.scatter(bikes_prep['temp'], bikes_prep['demand'], s=2, c='b')
 
 plt.subplot(2,2,2)
 plt.title('aTemp Vs Demand')
-plt.scatter(bikes_prep['atemp'], bikes_prep['demand'], s=2, c='b')
+plt.scatter(bikes_prep['atemp'], bikes_prep['demand'], s=2, c='k')
 
 plt.subplot(2,2,3)
 plt.title('Humidity Vs Demand')
-plt.scatter(bikes_prep['humidity'], bikes_prep['demand'], s=2, c='m')
+plt.scatter(bikes_prep['humidity'], bikes_prep['demand'], s=2, c='c')
 
 plt.subplot(2,2,4)
 plt.title('Windspeed Vs Demand')
-plt.scatter(bikes_prep['windspeed'], bikes_prep['demand'], s=2, c='c')
+plt.scatter(bikes_prep['windspeed'], bikes_prep['demand'], s=2, c='m')
 
 plt.tight_layout()
 
 
 # Visualise the categorical features
-colors = ['g', 'r', 'm', 'b']
+colors = ['b', 'k', 'c', 'm']
 
 plt.subplot(3,3,1)
 plt.title('Average Demand per Season')
